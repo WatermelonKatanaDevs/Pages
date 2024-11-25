@@ -1,0 +1,99 @@
+{
+    "badges": [
+        {
+            "name": "Founder",
+            "description": "The founders of WatermelonKatana. Thanks for being here from the start!",
+            "image": ""
+        },
+        {
+            "name": "Developer",
+            "description": "One of the official developers of WatermelonKatana. Thanks for your hard work!",
+            "image": ""
+        },
+        {
+            "name": "Contributor",
+            "description": "Contributed to WatermelonKatana in some way. Thanks for your help!",
+            "image": ""
+        },
+        {
+            "name": "Supporter",
+            "description": "Supports WatermelonKatana in some way. Thanks for your support!",
+            "image": ""
+        },
+        {
+            "name": "Tester",
+            "description": "Tested WatermelonKatana in some way. Thanks for your help!",
+            "image": ""
+        },
+        {
+            "name": "Moderator",
+            "description": "Moderates WatermelonKatana. Thanks for keeping the peace!",
+            "image": ""
+        },
+        {
+            "name": "Administrator",
+            "description": "Administers WatermelonKatana. Thanks for keeping everything running smoothly!",
+            "image": ""
+        },
+        {
+            "name": "Alpha Tester",
+            "description": "Tested WatermelonKatana during the alpha phase. Thanks for your help!",
+            "image": ""
+        },
+        {
+            "name": "Beta Tester",
+            "description": "Tested WatermelonKatana during the beta phase. Thanks for your help!",
+            "image": ""
+        },
+        {
+            "name": "Early Access",
+            "description": "Got early access to WatermelonKatana. Thanks for your support!",
+            "image": ""
+        },
+        {
+            "name": "Donator",
+            "description": "Donated money to WatermelonKatana. Thanks for your support!",
+            "image": ""
+        },
+        {
+            "name": "Artist",
+            "description": "Created art for WatermelonKatana. Thanks for your help!",
+            "image": ""
+        },
+        {
+            "name": "Translater",
+            "description": "Translated WatermelonKatana into another language. Thanks for your help!",
+            "image": ""
+        },
+        {
+            "name": "Streamer",
+            "description": "Streamed WatermelonKatana. Thanks for your support!",
+            "image": ""
+        },
+        {
+            "name": "YouTuber",
+            "description": "Made a video about WatermelonKatana. Thanks for your support!",
+            "image": ""
+        },
+        {
+            "name": "Community Leader",
+            "description": "Played a significant role in leading and engaging the WatermelonKatana community. Thanks for fostering growth!",
+            "image": ""
+        },
+        {
+            "name": "Event Organizer",
+            "description": "Organized or helped organize events for WatermelonKatana. Thanks for your effort!",
+            "image": ""
+        },
+        {
+            "name": "Bug Hunter",
+            "description": "Identified and reported bugs in WatermelonKatana. Thanks for helping improve the software!",
+            "image": ""
+        },
+        {
+            "name": "Community Helper",
+            "description": "Helped others in the community with technical or general advice. Thanks for being supportive!",
+            "image": ""
+        }
+    ]
+}
