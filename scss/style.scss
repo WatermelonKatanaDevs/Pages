@@ -1,0 +1,19 @@
+/*
+    WatermelonKatana Frontend Styles
+    Version: Beta 3.0
+    Authors: Colack & The Frontend Team
+*/
+
+@import 'variables';
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: $font-family;
+    background-color: $background-dark-grey;
+}

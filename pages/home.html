@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatermelonKatana / Home</title>
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="WatermelonKatana" />
+    <link rel="manifest" href="/site.webmanifest">
+    <meta property="og:title" content="WatermelonKatana"/>
+    <meta property="og:type" content="profile"/>
+    <meta property="og:image" content="/favicon/android-chrome-192x192.png"/>
+    <meta property="og:description" content="Post your projects, Interact with other peoples' projects, Chat with your friends & More! We have a large gallery of games and a growing user base, help us out by either posting your browser game here or playing other peoples' games!"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <button class="hamburger-btn" id="hamburgerBtn">&#9776;</button>
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img class="katana_logo" src="./small_logo.png" alt="Sidebar Logo">
+        </div>
+        <a href="#" class="active">Home</a>
+        <a href="#" class="inactive">Games</a>
+        <a href="#" class="inactive">Chat</a>
+        <a href="#" class="inactive">Profile</a>
+    </div>
+
+    <div class="main_content">
+        <section class="katana_intro">
+            <div class="boxed-text">
+                <h1>Welcome to <strong>WatermelonKatana</strong></h1>
+            </div>
+        </section>
+
+        <section class="katana-info">
+            <div class="boxed-text">
+                <p><strong>WatermelonKatana</strong> is a dynamic platform where users can post projects, engage with others, and foster connections. With a rich library of user-generated games and a rapidly expanding community, we invite you to be part of our journey as we continue to grow and innovate.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="social-buttons">
+            <a href="https://discord.gg/S8XTzKEz5f" target="_blank" class="social-btn discord-btn">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+            <a href="https://github.com/watermelonkatanadevs" target="_blank" class="social-btn github-btn">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/company/watermelonkatana/" target="_blank" class="social-btn linkedin-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    
+        <div class="footer-info">
+            <p>Email: <a href="mailto:admin@watermelonkatana.com">admin@watermelonkatana.com</a></p>
+            <p>&copy; 2024 WatermelonKatana. All rights reserved.</p>
+            <p>Stay updated with our <a href="/news">latest news</a>!</p>
+        </div>
+    </footer>    
+
+    <script>
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const sidebar = document.getElementById('sidebar');
+
+        hamburgerBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+  </body>
+</html>
