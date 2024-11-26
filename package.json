@@ -5,6 +5,7 @@
   "license": "MIT",
   "description": "WatermelonKatana Page Work",
   "dependencies": {
+    "handlebars": "^4.7.8",
     "sass": "^1.81.0"
   },
   "devDependencies": {
