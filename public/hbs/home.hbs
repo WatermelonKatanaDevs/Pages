@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <title>{{document_title}}</title>
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="{{platform_name}}" />
+    <link rel="manifest" href="/site.webmanifest">
+    <meta property="og:title" content="{{document_title}}"/>
+    <meta property="og:type" content="profile"/>
+    <meta property="og:image" content="/favicon/android-chrome-192x192.png"/>
+    <meta property="og:description" content="Post your projects, interact with others, and more. Join our growing community!"/>
+
+    <link rel="stylesheet" href="../public/css/temp.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="../public/js/footer.js"></script>
+  </head>
+  <body>
+    {{> sidebar}}
+
+    <div class="main_content">
+        <section class="katana_intro">
+            <div class="boxed-text">
+                <h1>Welcome to <strong>{{platform_name}}</strong></h1>
+            </div>
+        </section>
+
+        <section class="katana-info">
+            <div class="boxed-text">
+                <p><strong>{{platform_name}}</strong> is a dynamic platform where users can post projects, engage with others, and foster connections. With a rich library of user-generated games and a rapidly expanding community, we invite you to be part of our journey as we continue to grow and innovate.</p>
+            </div>
+        </section>
+    </div>
+
+    {{> footer}}
+
+    <script>
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const sidebar = document.getElementById('sidebar');
+
+        hamburgerBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+    </script>
+  </body>
 </html>
