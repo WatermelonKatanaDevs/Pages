@@ -76,18 +76,6 @@ body {
 	animation: liquidSpill 4s ease-in-out infinite;
 }
 
-@keyframes liquidSpill {
-	0% {
-		background-position: 0 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0 50%;
-	}
-}
-
 a, .link {
 	color: var(--palette-link);
 	text-decoration: none;
@@ -321,7 +309,7 @@ input[type=checkbox]:checked + .checkbox::after {
 
 .thumbnail-border.published {
 	background-image: linear-gradient(to right, lightgreen, limegreen);
-	box-shadow: 0 0 10px limegreen;
+	box-shadow: 0 0 10px rgb(75, 130, 75);
 }
 
 .thumbnail-border.featured {

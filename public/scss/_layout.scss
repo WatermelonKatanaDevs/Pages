@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: $font-family;
+    background-color: $background-dark-grey;
+}
+
+/*
+    Profiles
+*/
+.katana-profiles {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: $background-light-grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.katana-profile.banner {
+    width: 100%;
+    height: 200px;
+    background-color: $background-dark-grey;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.katana_role {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.katana_profile.admin .katana_role {
+    color: red;
+}
+
+.katana_profile.moderator .katana_role {
+    color: orange;
+}
+
+.katana_profile.user .katana_role {
+    color: green;
+}
